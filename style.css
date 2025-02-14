@@ -7,8 +7,63 @@
     margin: 88px 80px 137px 80px;
 }
 
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 36px 0;
+    background-color: #d9d9d9;
+  }
+  
+
+main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 img {
     width: 100%;
     border-radius: 28px;
+    height: 375px;
+    object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
+     margin-top: 44px;
 }
 
+h2, h3 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold; /* a fonte fica em negrito */
+    text-transform: uppercase; /* a fonte fica com todas as letras em maiúsculo */
+}
+
+h3 {
+    color: #E1624F;
+    font-weight: bold; /* a fonte fica em negrito */
+}
+
+p {
+    font-size: 16px;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+ul { 
+    font-weight: bold; /* a fonte fica em negrito */
+}
+
+#h {
+    color: #0C51A7;
+}
+
+#c {
+    color: #591B98;
+}
+
+#f {
+    color: #E5245E;
+}
+
+#o {
+    color: #E95E10;
+}
