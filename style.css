@@ -4,7 +4,7 @@
 
 #page {
     width: 1120;
-    margin: 88px 80px 137px 80px;
+    margin: 40px 80px 137px 80px;
 }
 
 .divider {
@@ -20,6 +20,15 @@ main {
     padding-bottom: 40px;
 }
 
+main section p {
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic; /* Muda estilo da fonte para itálico */
+    text-align: center;
+    color: #333333;
+    margin-top: 24px;
+}
+
 img {
     width: 100%;
     border-radius: 28px;
@@ -33,6 +42,14 @@ h2, h3 {
     line-height: 22px;
     font-weight: bold; /* a fonte fica em negrito */
     text-transform: uppercase; /* a fonte fica com todas as letras em maiúsculo */
+}
+
+aside h3 {
+    padding-top: 64px;
+}
+
+#at {
+    padding-bottom: 64px;
 }
 
 h3 {
@@ -67,3 +84,10 @@ ul {
 #o {
     color: #E95E10;
 }
+
+
+footer {
+    text-align: center;
+}
+
+
